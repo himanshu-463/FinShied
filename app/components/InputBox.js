@@ -17,7 +17,7 @@ export default function InputBox({ onAnalyze }) {
       <div className="flex justify-center my-10">
         <form
           onSubmit={handleSubmit}
-          className="text-white rounded-3xl border-2 p-8 border-blue-900 h-[62vh] sm:h-[61vh] md:h-[54vh] lg:h-[31vh] w-[70vw]"
+          className="text-white rounded-3xl border-2 p-8 border-blue-900 h-[62vh] sm:h-[61vh] md:h-[54vh]  w-[70vw]"
         >
           <h3>Enter SMS Text</h3>
 
