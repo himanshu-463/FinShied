@@ -14,6 +14,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "FinShield - SMS Fraud Detector",
   description: "Your Fraud Protection Partner – Detect and prevent scam SMS instantly using AI-powered analysis.",
+  icons: {
+    icon: "/favicon.ico", // or PNG/SVG path
+  },
 };
 
 export default function RootLayout({ children }) {
